@@ -1,10 +1,11 @@
 {
   "name": "bookshelf-api-back-end",
-  "version": "1.0.0",
-  "description": "submission Dicoding Academy membuat Bookshelf API",
+  "version": "2.0.0",
+  "description": "submission ke-2 Dicoding Academy membuat Bookshelf API",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon ./src/server.js"
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint --fix --ext .js,.jsx ."
   },
   "keywords": [
     "hapi"
@@ -12,6 +13,9 @@
   "author": "akhsanby",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
     "nodemon": "^2.0.7"
   },
   "dependencies": {
